@@ -1,0 +1,388 @@
+@media  (max-width: 1439px) {
+
+    body{
+      width: 100%;
+    }
+
+  .first-nav,
+  .low-nav {
+    display: none;
+  }
+
+  nav.mobile-nav {
+    width: 100%;
+  }
+
+  .mobile-nav {
+    height: 50px;
+    background-color: #f72110;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+
+  .mobile-nav img {
+    width: 100px;
+    height: auto;
+    margin-left: 5px;
+    margin-top: 10px;
+  }
+
+  .mob-i {
+    font-size: 25px;
+    padding-top: 10px;
+  }
+
+  .mob-fas {
+    color: white;
+  }
+
+  .mobile-nav button {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+
+.mobile-nav span {
+  margin-left: 20vw;
+    color: white;
+    font-size: 15px;
+  }
+
+.congress1,
+.img {
+  align-items: center;
+  width: 50%;
+}
+
+
+}
+
+body {
+  background-color: #f4f5f6;
+}
+
+header {
+  display: flex;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+h1 {
+  display: none;
+}
+
+.first-nav {
+  height: 100px;
+  background-color: #f72110;
+  width: 100%
+}
+
+.low-nav {
+  height: 50px;
+  margin-top: 10px;
+}
+
+.low-nav i {
+  font-size: 20px;
+}
+
+.low-nav span {
+  font-size: 18px;
+}
+
+.low-nav a {
+  color: black;
+  font-size: 20px;
+  margin-right: 13px;
+  margin-left: 10px;
+}
+
+nav img {
+  justify-content: center;
+  width: 300px;
+  height: 100px;
+  margin-left: 350px;
+  margin-right: 200px;
+}
+
+.first-nav a {
+  color: white;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.first-nav i {
+  margin-left: 10px;
+  font-size: 15px;
+  color: white;
+}
+
+.button {
+  align-items: flex-end;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  color: red;
+  margin-left: 10px;
+}
+
+.main {
+  display: grid;
+  background-color: #ffffff;
+  padding-right: 20px;
+}
+
+.heading {
+  font-size: 18px;
+  color: #9a9a9a;
+  padding-left: 50px;
+}
+
+.featured1 {
+  margin-top: 20px;
+  padding-left: 80px;
+}
+
+.opinion {
+  padding-left: 40px;
+  margin-right: 0;
+}
+
+.opinion img {
+  float: left;
+  margin-right: 10px;
+}
+
+.featured img {
+  width: 380px;
+  height: 225px;
+  padding-left: 50px;
+}
+
+.featured p {
+  padding-left: 50px;
+  color: #515151;
+}
+
+.top p {
+  color: #515151;
+}
+
+.featured a,
+.top a,
+.editors1 a,
+.slide1 a,
+.us-main a,
+.us-main1 a {
+  color: black;
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+.featured a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.top img {
+  width: 450px;
+  height: 310px;
+}
+
+ .culture {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+}
+
+.culture1 img,
+.culture2 img,
+.culture3 img {
+  width: 100%;
+  height: auto;
+}
+
+.top-p {
+  font-size: 19px;
+  color: black;
+}
+
+.top-p1 {
+  color: #9a9a9a;
+}
+
+.opinion-p {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.opinion span {
+  color: #555555;
+  margin-left: 70px;
+}
+
+.congress {
+  height: 90px;
+}
+
+.congress1 {
+  margin-bottom: 20px;
+}
+
+.img img {
+  height: auto;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.first {
+  border: 1px solid red;
+}
+
+.more-stories {
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.more-stories p,
+.editors1 p {
+  margin-top: 10px;
+}
+
+.more-main {
+  border-bottom: 1px solid grey;
+  overflow: hidden;
+  padding-bottom: 10px;
+}
+
+.more-main a {
+  font-size: 15px;
+}
+
+.more-main img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+  margin-top: 10px;
+  float: left;
+
+}
+
+.more
+
+.mag-heading img,
+.editors-heading img,
+.slideshow-heading img {
+  width: 40px;
+  height: 30px;
+  margin-left: 500px;
+}
+
+.editors-heading,
+.slideshow-heading {
+  margin-top: 20px;
+}
+
+.mag-1 img,
+.editors1 img,
+.slide1 img {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+.mag-1 a {
+  color: black;
+  font-size: 18px;
+}
+
+.editors1{
+  height: 400px;
+}
+
+.slide1 img {
+  margin-bottom: 15px;
+}
+
+.us h4,
+.subscribe h4 {
+  color: #f72110;
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+ .us-main img,
+ .us-main1 img {
+   width: 350px;
+   height: 250px;
+ }
+
+ .us-side1 {
+   overflow: hidden;
+ }
+
+ .us-side1 {
+   margin-bottom: 20px;
+   padding-bottom: 10px;
+   border-bottom: 1px solid grey;
+ }
+
+ .us-side1 img {
+   width: 90px;
+   height: auto;
+   margin-right: 10px;
+   float: left;
+ }
+
+.us-side1 p {
+  margin-left: 10px;
+}
+
+.us-aside img {
+  width: 90px;
+  height: auto;
+}
+
+ .us-aside a {
+  color: black;
+  font-size: 13px;
+ }
+
+ .subscribe {
+   margin-top: 15px;
+ }
+
+.subscribe img {
+  width: 100%;
+  height: auto;
+}
+
+.news-letter img {
+  width: 250px;
+  height: auto;
+}
+
+.news-letter span {
+  margin-right: 600px;
+}
+
+.news-letter i {
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+footer a,
+.footer-span {
+  color: #666666;
+  margin-right: 5px;
+}
+
+footer a:hover {
+  color: black;
+  text-decoration: none;
+}
