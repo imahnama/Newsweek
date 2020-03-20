@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/imahnama/Apple-clone/apple-clone/index.html)
+[Live Demo Link](https://rawcdn.githack.com/imahnama/Newsweek/c47ac039567626844bac3501efcec62c49fcee44/index.html)
 
 ## Getting Started
 
