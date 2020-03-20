@@ -1,10 +1,9 @@
 @media (max-width: 992px) {
-
-.mobile-navbar {
-  position: fixed;
-  width: 100%;
-  z-index: 1;
-}
+  .mobile-navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  }
 
   .mobile-nav {
     display: inherit !important;
@@ -12,9 +11,8 @@
     background-color: #f72110;
   }
 
-  .mobile-nav a{
+  .mobile-nav a {
     color: white;
-
   }
 
   div.featured {
@@ -28,11 +26,11 @@
     margin: 0;
   }
 
-   div.us-main img,
-   div.us-main1 img {
-     width: 100%;
-     height: auto;
-   }
+  div.us-main img,
+  div.us-main1 img {
+    width: 100%;
+    height: auto;
+  }
 
   .desktop-navbar {
     display: none;
@@ -48,7 +46,7 @@ body {
 }
 
 .navbar {
- display: none;
+  display: none;
 }
 
 .nav-i i {
@@ -85,6 +83,12 @@ h1 {
   font-size: 18px;
 }
 
+footer a,
+.footer-span {
+  color: #666;
+  margin-right: 5px;
+}
+
 .low-nav a {
   color: black;
   font-size: 17px;
@@ -117,7 +121,7 @@ nav img {
 
 .main {
   display: grid;
-  background-color: #ffffff;
+  background-color: #fff;
   padding-right: 20px;
 }
 
@@ -168,6 +172,30 @@ nav img {
   margin-top: 10px;
 }
 
+.mag-1 img {
+  width: 100%;
+  height: auto;
+}
+
+.more-main a {
+  font-size: 15px;
+}
+
+.mag-1 a {
+  color: black;
+  font-size: 18px;
+}
+
+.us-aside a {
+  color: black;
+  font-size: 13px;
+}
+
+footer a:hover {
+  color: black;
+  text-decoration: none;
+}
+
 .featured a:hover {
   color: red;
   text-decoration: underline;
@@ -178,7 +206,7 @@ nav img {
   height: 310px;
 }
 
- .culture {
+.culture {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 10px;
@@ -206,7 +234,7 @@ nav img {
 }
 
 .opinion span {
-  color: #555555;
+  color: #555;
   margin-left: 70px;
 }
 
@@ -245,32 +273,16 @@ nav img {
   padding-bottom: 10px;
 }
 
-.more-main a {
-  font-size: 15px;
-}
-
 .more-main img {
   width: 100px;
   height: 100px;
   margin-right: 10px;
   margin-top: 10px;
   float: left;
-
 }
 
-.more
-
-.mag-heading img,
-.editors-heading img,
-.slideshow-heading img {
-  width: 40px;
-  height: 30px;
-  margin-left: 500px;
-}
-
-.editors-heading,
-.slideshow-heading {
-  margin-top: 20px;
+.mag img {
+  width: 100%;
 }
 
 .editors1 img,
@@ -280,80 +292,27 @@ nav img {
   margin-top: 10px;
 }
 
-.mag {
-  width: 100%;
-  height: auto;
-}
-
-.mag img {
-  width: 100%;
-}
-
-.mag-1 img {
-  width: 100%;
-  height: auto;
-}
-
-.mag-1 a {
-  color: black;
-  font-size: 18px;
-}
-
-.editors1{
-  height: 400px;
-}
-
 .slide1 img {
   margin-bottom: 15px;
 }
 
-.us h4,
-.subscribe h4 {
-  color: #f72110;
-  margin-left: 15px;
-  font-size: 20px;
+.us-main img,
+.us-main1 img {
+  width: 350px;
+  height: 250px;
 }
 
- .us-main img,
- .us-main1 img {
-   width: 350px;
-   height: 250px;
- }
-
- .us-side1 {
-   overflow: hidden;
- }
-
- .us-side1 {
-   margin-bottom: 20px;
-   padding-bottom: 10px;
-   border-bottom: 1px solid grey;
- }
-
- .us-side1 img {
-   width: 90px;
-   height: auto;
-   margin-right: 10px;
-   float: left;
- }
-
-.us-side1 p {
-  margin-left: 10px;
+.us-side1 img {
+  width: 90px;
+  height: auto;
+  margin-right: 10px;
+  float: left;
 }
 
 .us-aside img {
   width: 90px;
   height: auto;
 }
-
- .us-aside a {
-  color: black;
-  font-size: 13px;
- }
-
- .subscribe {
-   margin-top: 15px;
- }
 
 .subscribe img {
   width: 100%;
@@ -365,6 +324,50 @@ nav img {
   height: auto;
 }
 
+.editors-heading img,
+.slideshow-heading img,
+.more .mag-heading img {
+  width: 40px;
+  height: 30px;
+  margin-left: 500px;
+}
+
+.editors-heading,
+.slideshow-heading {
+  margin-top: 20px;
+}
+
+.mag {
+  width: 100%;
+  height: auto;
+}
+
+.editors1 {
+  height: 400px;
+}
+
+.us h4,
+.subscribe h4 {
+  color: #f72110;
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+.us-side1 {
+  overflow: hidden;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid grey;
+}
+
+.us-side1 p {
+  margin-left: 10px;
+}
+
+.subscribe {
+  margin-top: 15px;
+}
+
 .news-letter span {
   margin-right: 600px;
 }
@@ -372,15 +375,4 @@ nav img {
 .news-letter i {
   font-size: 25px;
   margin-right: 10px;
-}
-
-footer a,
-.footer-span {
-  color: #666666;
-  margin-right: 5px;
-}
-
-footer a:hover {
-  color: black;
-  text-decoration: none;
 }
