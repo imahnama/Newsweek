@@ -1,57 +1,49 @@
-@media  (max-width: 1439px) {
+@media (max-width: 992px) {
+
+  .mobile-navbar {
+    display: block;
+    background-color: #f72110;
+  }
+  div.featured {
+    width: 100%;
+  }
+
+  div.top-story img,
+  div.featured img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+
+   div.us-main img,
+   div.us-main1 img {
+     width: 100%;
+     height: auto;
+   }
+
+  .desktop-navbar {
+    display: none;
+  }
+
+  footer {
+    width: 100%;
+  }
+}
+
+@media (min-width: 993px) {
 
     body{
       width: 100%;
     }
 
-  .first-nav,
-  .low-nav {
-    display: none;
+  .desktop-navbar {
+    display: inherit;
   }
 
-  nav.mobile-nav {
-    width: 100%;
-  }
-
-  .mobile-nav {
-    height: 50px;
-    background-color: #f72110;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-  }
-
-  .mobile-nav img {
-    width: 100px;
-    height: auto;
-    margin-left: 5px;
-    margin-top: 10px;
-  }
-
-  .mob-i {
-    font-size: 25px;
-    padding-top: 10px;
-  }
-
-  .mob-fas {
-    color: white;
-  }
-
-  .mobile-nav button {
-    margin-top: 5px;
-    margin-bottom: 10px;
-    font-size: 15px;
-  }
-
-.mobile-nav span {
-  margin-left: 20vw;
-    color: white;
-    font-size: 15px;
-  }
-
-.congress1,
 .img {
-  align-items: center;
+  margin-left: 200px;
   width: 50%;
+  padding-top: 50px;
 }
 
 
@@ -61,14 +53,8 @@ body {
   background-color: #f4f5f6;
 }
 
-header {
-  display: flex;
-  margin-left: 100px;
-  margin-right: 100px;
-}
-
-.mobile-nav {
-  display: none;
+.mobile-navbar {
+ display: none;
 }
 
 h1 {
@@ -76,12 +62,16 @@ h1 {
 }
 
 .first-nav {
+  display: flex;
+  justify-content: space-between;
   height: 100px;
+  padding: 20px;
   background-color: #f72110;
-  width: 100%
 }
 
 .low-nav {
+  display: flex;
+  justify-content: center;
   height: 50px;
   margin-top: 10px;
 }
@@ -96,23 +86,19 @@ h1 {
 
 .low-nav a {
   color: black;
-  font-size: 20px;
+  font-size: 17px;
   margin-right: 13px;
   margin-left: 10px;
 }
 
 nav img {
   justify-content: center;
-  width: 300px;
-  height: 100px;
-  margin-left: 350px;
-  margin-right: 200px;
+  width: 30%;
 }
 
 .first-nav a {
   color: white;
   font-size: 18px;
-  margin-left: 20px;
 }
 
 .first-nav i {
@@ -123,8 +109,6 @@ nav img {
 
 .button {
   align-items: flex-end;
-  padding-left: 20px;
-  padding-right: 20px;
   font-size: 20px;
   color: red;
   margin-left: 10px;

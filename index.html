@@ -5,56 +5,86 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" >
   <script src="https://kit.fontawesome.com/668d372fa7.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <main>
     <header>
+<div class="desktop-navbar">
+  <nav class="first-nav">
+    <i class="fas fa-cloud-sun">27°null, MU > </i>
+    <img src="images/logo.png" alt="logo">
+<div class="right-nav">
+  <a href="#">SIGN IN</a>
+  <button type="button" class="button" name="button">Subscribe ></button>
+</div>
 
-      <nav class="first-nav">
-        <i class="fas fa-cloud-sun">27°null, MU > </i>
-        <img src="images/logo.png" alt="logo">
-        <a href="#">SIGN IN</a>
-        <button type="button" class="button" name="button">Subscribe ></button>
+  </nav>
+
+  <nav class="low-nav ">
+    <a href="#">U.S |</a>
+    <a href="#">World |</a>
+    <a href="#">Tech & Science |</a>
+    <a href="#">Culture |</a>
+    <a href="#">Newsgeek |</a>
+    <a href="#">Sports |</a>
+    <a href="#">Health |</a>
+    <a href="#">The Debate |</a>
+    <a href="#">Weather </a>
+
+    <span>Search <i class="fas fa-search"></i></span>
+
+  </nav>
+
+</div>
+      <div class="mobile-navbar">
+        <nav class="navbar navbar-default mobile-nav">
+        <div class="container-fluid">
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Newsweek</a>
+          </div>
+
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">SIGN IN <span class="sr-only">(current)</span></a></li>
+              <li><a href="#">SUBSCRIBE</a></li>
+
+            </ul>
+
+
+            </li>
+            </ul>
+          </div>
+        </div>
       </nav>
 
-      <nav class="low-nav">
-        <a href="#">U.S |</a>
-        <a href="#">World |</a>
-        <a href="#">Tech & Science |</a>
-        <a href="#">Culture |</a>
-        <a href="#">Newsgeek |</a>
-        <a href="#">Sports |</a>
-        <a href="#">Health |</a>
-        <a href="#">The Debate |</a>
-        <a href="#">Weather </a>
+      </div>
 
-        <span>Search <i class="fas fa-search"></i></span>
 
-      </nav>
+
 
     </header>
 
-    <nav class="mobile-nav d-flex flex-column">
-
-       <img src="images/logo.png" alt="logo">
-       <i class="mob-fas fas fa-cloud-sun">27°null, MU > </i>
-
-        <span>SIGN IN</span>
-        <button type="button" class="button" name="button">Subscribe ></button>
-        <i class=" mob-i fas fa-bars"></i>
 
 
 
-    </nav>
+
 
     <section>
       <h1>hi</h1>
       <div class="container-fluid main">
-        <div class="row">
-          <div class="col-lg-4  col-md-5 d-flex featured flex-column">
+        <div class="row d-flex justify-content-between">
+          <div class="col-lg-4  col-md-6  col-sm-12 d-flex featured flex-column">
             <div class="featured1">
               <h4 class="heading">FEATURED STORIES</h4>
               <img src="images/bernie.png" alt="">
@@ -100,7 +130,7 @@
 
             </div>
           </div>
-          <div class="col-lg-4 col-md-7 top d-flex flex-column">
+          <div class="col-lg-4 col-md-6 top d-flex flex-column">
             <h4 class="heading">TOP STORY</h4>
             <img src="images/federal.png" alt="">
             <p><a href="#">Federal Reserve Slashes Interest Rates to Near 0% Amid Coronavirus Pandemic</a></p>
@@ -130,109 +160,109 @@
               <h4>MORE STORIES</h4>
               <hr>
               <div class="d-flex flex-column more-main">
-              <img src="https://d.newsweek.com/en/full/1574105/iran-coronavirus-ayatollah-hassan-rouhani.jpg?w=95&h=95&f=d9c023fd55255214598caecadddc9707" alt="">
-              <a href="#">Iran Senior Cleric Dies of Coronavirus, President Says Infections Peak</a>
-              <p>Ayatollah Hashem Bathaei-Golpaygani was a member of the Assembly of Experts, which selects the country's supreme leader.</p>
-            </div>
+                <img src="https://d.newsweek.com/en/full/1574105/iran-coronavirus-ayatollah-hassan-rouhani.jpg?w=95&h=95&f=d9c023fd55255214598caecadddc9707" alt="">
+                <a href="#">Iran Senior Cleric Dies of Coronavirus, President Says Infections Peak</a>
+                <p>Ayatollah Hashem Bathaei-Golpaygani was a member of the Assembly of Experts, which selects the country's supreme leader.</p>
+              </div>
               <div class="d-flex flex-column more-main">
                 <img src="https://d.newsweek.com/en/full/1574080/dead-sea-scrolls-fragment.jpg?w=95&h=95&f=04affb14ae33ae443cdd24b69a30e7a7" alt="">
                 <a href="#">Entire Dead Sea Scroll Fragment Collection at U.S. Museum Is Fake: Experts</a>
                 <p>Considered to be among the most significant archaeological finds of all time, the Dead Sea Scrolls contain some of the earliest versions of biblical texts.</p>
               </div>
-                <div class="d-flex flex-column more-main">
-                  <img src="https://d.newsweek.com/en/full/1574059/disney-pixars-onward.jpg?w=95&h=95&f=cabacd797f7c54064006bf768502e459" alt="">
-                  <a href="#">U.S. Box Office Hits 20-Year Low</a>
-                  <p>Movies including "Onward" and "The Hunt" only managed to gross $55.3 million over the weekend. Movies including "Onward" and "The Hunt" only managed to gross $55.3 million over the weekend.</p>
-                </div>
-                  <div class="d-flex flex-column more-main">
-                    <img src="https://d.newsweek.com/en/full/1574135/covid-19-test.jpg?w=95&h=95&f=fc341882e557da225ee3189ee5966ca4" alt="">
-                    <a href="#">Massachusetts Firm Says It Has 1.5 Million Coronavirus Tests Ready to Ship</a>
-                    <p>Thermo Fisher Scientific said the available tests will initially be distributed to approximately 200 labs in the U.S.</p>
-                  </div>
-                  <div class="d-flex flex-column more-main">
-                    <img src="https://d.newsweek.com/en/full/1574110/kamala-harris.jpg?w=95&h=95&f=93a9b70e78d3ebe7201d8591f6b8abbb" alt="">
-                    <a href="#">Kamala Harris Would Make the Best Vice Presidential Candidate: Poll</a>
-                    <p>Andrew Yang received the second-highest level of support from respondents.</p>
-                  </div>
-                  <div class="d-flex flex-column more-main">
-                    <img id="trump" src="https://d.newsweek.com/en/full/1574277/us-president-donald-trump.jpg?w=95&h=95&f=f910c8f626dd3ded8c120e054716be81" alt="">
-                    <a href="#">Report Shows Trump Telling Governors to Get Respirators by 'Yourselves'</a>
-                    <p>Governors have been waiting for the federal government to provide them with equipment.</p>
-                  </div>
-                  <div class="d-flex flex-column more-main">
-                    <img src="https://d.newsweek.com/en/full/1574240/oriole-park-mlb.jpg?w=95&h=95&f=3bc810b65fb7dd64bb53139042475b05" alt="">
-                    <a href="#">Coronavirus Concerns Close Canada's Borders, Canadians and Americans Exempt</a>
-                    <p>"I know this news will spark concern among Canadians traveling abroad," Justin Trudeau said. "I want to assure you that our government will not leave you unsupported."</p>
-                  </div>
-                  <div class="d-flex flex-column more-main">
-                    <img src="https://d.newsweek.com/en/full/1574294/us-army-iraq-war-isis-military.jpg?w=95&h=95&f=bad58ce92cc5f192577221ae0d05b6a7" alt="">
-                    <a href="#">U.S. Coalition to Leave Some Iraq Bases After Deadly Week of Vioelnce</a>
-                    <p>The U.S.-led coalition told Newsweek it "is re-positioning troops from a few smaller bases" in Iraq, where violence involving U.S. troops, militiamen and militants has recently</p>
-                  </div>
-                  <div class="d-flex flex-column more-main">
-                    <img src="https://d.newsweek.com/en/full/1574186/house.jpg?w=95&h=95&f=05d0a25b64e3d92f1850f73140f17c0e" alt="">
-                    <a href="#">40 Republicans Voted Against the 'Families First' Coronavirus Response Bill</a>
-                    <p>"We all want to help Americans as we face the spread of coronavirus, but this complete rush job is not the way to do it," said Republican Representative Debbie Lesko.</p>
-
-                  </div>
-
-                </div>
-
+              <div class="d-flex flex-column more-main">
+                <img src="https://d.newsweek.com/en/full/1574059/disney-pixars-onward.jpg?w=95&h=95&f=cabacd797f7c54064006bf768502e459" alt="">
+                <a href="#">U.S. Box Office Hits 20-Year Low</a>
+                <p>Movies including "Onward" and "The Hunt" only managed to gross $55.3 million over the weekend. Movies including "Onward" and "The Hunt" only managed to gross $55.3 million over the weekend.</p>
               </div>
-              <div class="col-lg-3 col-md-12 opinion d-flex flex-column">
-                <h4 class="heading">OPINION</h4>
-
-                <img src="https://d.newsweek.com/en/full/83499/newt-gingrich.png?w=63&h=63&l=48&t=55&f=d8b4f8dfaad8a5f0f71bffcc6c0d6a77" alt="">
-                <p class="opinion-p">I Am in Italy Amid the Coronavirus Crisis. America Must Act Now—And Act Big</p>
-                <span>BY NEWT GINGRICH</span>
-                <hr>
-                <img src="https://d.newsweek.com/en/full/111050/craig-considine.png?w=63&h=63&f=86981e327051b13e3771dc08bb69f7f8" alt="">
-                <p class="opinion-p">By Parroting 'Chinese Coronavirus,' Republicans Are Promoting Racism</p>
-                <span>BY JUDY CHU</span>
-                <hr>
-                <img src="https://d.newsweek.com/en/full/1574439/dan-caldwell.png?w=63&h=63&f=9112a861ea096c0b55f6d98918261dad" alt="">
-                <p class="opinion-p">Coronavirus Is Exposing Trump's 'Strong Economy' for the Hoax It Is</p>
-                <span>BY ANGELA HANKS</span>
-                <hr>
-                <img src="https://d.newsweek.com/en/full/101658/jennifer-weiss-wolf.png?w=63&h=63&f=0b82c369922ff03b0e424910c2ec3167" alt="">
-                <p class="opinion-p">Don't Panic Over Coronavirus. That's Just What the President's Enemies Want</p>
-                <span>BY CHARLIE KIRK</span>
-                <hr>
-                <img src="https://d.newsweek.com/en/full/83499/newt-gingrich.png?w=63&h=63&l=48&t=55&f=d8b4f8dfaad8a5f0f71bffcc6c0d6a77" alt="">
-                <p class="opinion-p">Coronavirus and In-Person Voting Don't Mix. We Must Prepare for Digitized Elections</p>
-                <span>BY LEEZA GARBER</span>
-                <hr>
-                <img src="https://d.newsweek.com/en/full/83499/newt-gingrich.png?w=63&h=63&l=48&t=55&f=d8b4f8dfaad8a5f0f71bffcc6c0d6a77" alt="">
-                <p class="opinion-p">Trump Is Hurting the Economy by Linking Coronavirus to Immigration</p>
-                <span>BY IBRAHIM ALHUSSEINI</span>
-                <hr>
-
-                <h4>LATEST NEWS</h4>
-                <div class="congress">
-                  <img src="https://d.newsweek.com/en/full/1574961/don-young.jpg?w=95&h=95&f=e61b82af5d45f0beeffdb3b7894d6fca" alt="">
-                  <p>Congressman Attended NRA Fundraiser After Skipping COVID-19 Relief Vote</p>
-                </div>
-                <hr>
-                <div class="congress1">
-                  <img src="https://d.newsweek.com/en/full/1574927/candle.jpg?w=95&h=95&f=9041fb7e8d050adba66d063a53b19abc" alt="">
-                  <p>My Family Gave Up Sitting Shiva to Fight Coronavirus</p>
-                </div>
-                <div class="img">
-                  <img src="img/21.png" alt="">
-                </div>
-                <div class="img">
-                  <img src="img/22.png" alt="">
-                </div>
-                <div class="img">
-                  <img src="img/23.png" alt="">
-                </div>
-                <div class="img">
-                  <img src="img/24.png" alt="">
-                </div>
+              <div class="d-flex flex-column more-main">
+                <img src="https://d.newsweek.com/en/full/1574135/covid-19-test.jpg?w=95&h=95&f=fc341882e557da225ee3189ee5966ca4" alt="">
+                <a href="#">Massachusetts Firm Says It Has 1.5 Million Coronavirus Tests Ready to Ship</a>
+                <p>Thermo Fisher Scientific said the available tests will initially be distributed to approximately 200 labs in the U.S.</p>
+              </div>
+              <div class="d-flex flex-column more-main">
+                <img src="https://d.newsweek.com/en/full/1574110/kamala-harris.jpg?w=95&h=95&f=93a9b70e78d3ebe7201d8591f6b8abbb" alt="">
+                <a href="#">Kamala Harris Would Make the Best Vice Presidential Candidate: Poll</a>
+                <p>Andrew Yang received the second-highest level of support from respondents.</p>
+              </div>
+              <div class="d-flex flex-column more-main">
+                <img id="trump" src="https://d.newsweek.com/en/full/1574277/us-president-donald-trump.jpg?w=95&h=95&f=f910c8f626dd3ded8c120e054716be81" alt="">
+                <a href="#">Report Shows Trump Telling Governors to Get Respirators by 'Yourselves'</a>
+                <p>Governors have been waiting for the federal government to provide them with equipment.</p>
+              </div>
+              <div class="d-flex flex-column more-main">
+                <img src="https://d.newsweek.com/en/full/1574240/oriole-park-mlb.jpg?w=95&h=95&f=3bc810b65fb7dd64bb53139042475b05" alt="">
+                <a href="#">Coronavirus Concerns Close Canada's Borders, Canadians and Americans Exempt</a>
+                <p>"I know this news will spark concern among Canadians traveling abroad," Justin Trudeau said. "I want to assure you that our government will not leave you unsupported."</p>
+              </div>
+              <div class="d-flex flex-column more-main">
+                <img src="https://d.newsweek.com/en/full/1574294/us-army-iraq-war-isis-military.jpg?w=95&h=95&f=bad58ce92cc5f192577221ae0d05b6a7" alt="">
+                <a href="#">U.S. Coalition to Leave Some Iraq Bases After Deadly Week of Vioelnce</a>
+                <p>The U.S.-led coalition told Newsweek it "is re-positioning troops from a few smaller bases" in Iraq, where violence involving U.S. troops, militiamen and militants has recently</p>
+              </div>
+              <div class="d-flex flex-column more-main">
+                <img src="https://d.newsweek.com/en/full/1574186/house.jpg?w=95&h=95&f=05d0a25b64e3d92f1850f73140f17c0e" alt="">
+                <a href="#">40 Republicans Voted Against the 'Families First' Coronavirus Response Bill</a>
+                <p>"We all want to help Americans as we face the spread of coronavirus, but this complete rush job is not the way to do it," said Republican Representative Debbie Lesko.</p>
 
               </div>
 
             </div>
+
+          </div>
+          <div class="col-lg-3 col-md-12 opinion d-flex flex-column">
+            <h4 class="heading">OPINION</h4>
+
+            <img src="https://d.newsweek.com/en/full/83499/newt-gingrich.png?w=63&h=63&l=48&t=55&f=d8b4f8dfaad8a5f0f71bffcc6c0d6a77" alt="">
+            <p class="opinion-p">I Am in Italy Amid the Coronavirus Crisis. America Must Act Now—And Act Big</p>
+            <span>BY NEWT GINGRICH</span>
+            <hr>
+            <img src="https://d.newsweek.com/en/full/111050/craig-considine.png?w=63&h=63&f=86981e327051b13e3771dc08bb69f7f8" alt="">
+            <p class="opinion-p">By Parroting 'Chinese Coronavirus,' Republicans Are Promoting Racism</p>
+            <span>BY JUDY CHU</span>
+            <hr>
+            <img src="https://d.newsweek.com/en/full/1574439/dan-caldwell.png?w=63&h=63&f=9112a861ea096c0b55f6d98918261dad" alt="">
+            <p class="opinion-p">Coronavirus Is Exposing Trump's 'Strong Economy' for the Hoax It Is</p>
+            <span>BY ANGELA HANKS</span>
+            <hr>
+            <img src="https://d.newsweek.com/en/full/101658/jennifer-weiss-wolf.png?w=63&h=63&f=0b82c369922ff03b0e424910c2ec3167" alt="">
+            <p class="opinion-p">Don't Panic Over Coronavirus. That's Just What the President's Enemies Want</p>
+            <span>BY CHARLIE KIRK</span>
+            <hr>
+            <img src="https://d.newsweek.com/en/full/83499/newt-gingrich.png?w=63&h=63&l=48&t=55&f=d8b4f8dfaad8a5f0f71bffcc6c0d6a77" alt="">
+            <p class="opinion-p">Coronavirus and In-Person Voting Don't Mix. We Must Prepare for Digitized Elections</p>
+            <span>BY LEEZA GARBER</span>
+            <hr>
+            <img src="https://d.newsweek.com/en/full/83499/newt-gingrich.png?w=63&h=63&l=48&t=55&f=d8b4f8dfaad8a5f0f71bffcc6c0d6a77" alt="">
+            <p class="opinion-p">Trump Is Hurting the Economy by Linking Coronavirus to Immigration</p>
+            <span>BY IBRAHIM ALHUSSEINI</span>
+            <hr>
+
+            <h4>LATEST NEWS</h4>
+            <div class="congress">
+              <img src="https://d.newsweek.com/en/full/1574961/don-young.jpg?w=95&h=95&f=e61b82af5d45f0beeffdb3b7894d6fca" alt="">
+              <p>Congressman Attended NRA Fundraiser After Skipping COVID-19 Relief Vote</p>
+            </div>
+            <hr>
+            <div class="congress1 d-flex justify-content-center">
+              <img src="https://d.newsweek.com/en/full/1574927/candle.jpg?w=95&h=95&f=9041fb7e8d050adba66d063a53b19abc" alt="">
+              <p>My Family Gave Up Sitting Shiva to Fight Coronavirus</p>
+            </div>
+            <div class="img">
+              <img src="img/21.png" alt="">
+            </div>
+            <div class="img">
+              <img src="img/22.png" alt="">
+            </div>
+            <div class="img">
+              <img src="img/23.png" alt="">
+            </div>
+            <div class="img">
+              <img src="img/24.png" alt="">
+            </div>
+
+          </div>
+
+        </div>
     </section>
 
     <section class="magazine">
@@ -386,16 +416,16 @@
             <hr>
             <h4>U.S</h4>
           </div>
-          <div class=" col-lg-4 us-main col-md-3">
+          <div class=" col-lg-4 us-main col-md-5">
             <img src="img/1.png" alt="">
             <a href="#">Sanders Proposes $2,000 Monthly for Americans Until Coronavirus Threat Ends</a>
           </div>
-          <div class="col-lg-4 us-main1 col-md-3">
+          <div class="col-lg-4 us-main1 col-md-5">
             <img src="img/2.png" alt="">
             <a href="#">Conservative Author Warns Coronavirus 'Could Give Rise to the Antichrist'</a>
           </div>
 
-          <div class="col-lg-4 us-aside d-flex flex-column col-md-4">
+          <div class="col-lg-4 us-aside d-flex flex-column col-md-2">
             <div class=" us-side1 d-flex">
               <a href="#"><img src="img/3.png" alt=""></a>
               <p><a href="#">What Can You Do With Your Membership If the State Shuts Down Your Gym?</a></p>
@@ -422,16 +452,16 @@
             <hr>
             <h4>World</h4>
           </div>
-          <div class=" col-lg-4 us-main col-md-3">
+          <div class=" col-lg-4 us-main col-md-5">
             <img src="img/1.png" alt="">
             <a href="#">Sanders Proposes $2,000 Monthly for Americans Until Coronavirus Threat Ends</a>
           </div>
-          <div class="col-lg-4 us-main1 col-md-3">
+          <div class="col-lg-4 us-main1 col-md-5">
             <img src="img/2.png" alt="">
             <a href="#">Conservative Author Warns Coronavirus 'Could Give Rise to the Antichrist'</a>
           </div>
 
-          <div class="col-lg-4 us-aside d-flex flex-column col-md-4">
+          <div class="col-lg-4 us-aside d-flex flex-column col-md-2">
             <div class=" us-side1 d-flex">
               <a href="#"><img src="img/3.png" alt=""></a>
               <p><a href="#">What Can You Do With Your Membership If the State Shuts Down Your Gym?</a></p>
@@ -458,16 +488,16 @@
             <hr>
             <h4>Business</h4>
           </div>
-          <div class=" col-lg-4 us-main col-md-4">
+          <div class=" col-lg-4 us-main col-md-5">
             <img src="img/1.png" alt="">
             <a href="#">Sanders Proposes $2,000 Monthly for Americans Until Coronavirus Threat Ends</a>
           </div>
-          <div class="col-lg-4 us-main col-md-4">
+          <div class="col-lg-4 us-main col-md-5">
             <img src="img/2.png" alt="">
             <a href="#">Conservative Author Warns Coronavirus 'Could Give Rise to the Antichrist'</a>
           </div>
 
-          <div class="col-lg-4 us-aside d-flex flex-column col-md-4">
+          <div class="col-lg-4 us-aside d-flex flex-column col-md-2">
             <div class=" us-side1 d-flex">
               <a href="#"><img src="img/3.png" alt=""></a>
               <p><a href="#">What Can You Do With Your Membership If the State Shuts Down Your Gym?</a></p>
@@ -615,6 +645,9 @@
 
     </footer>
   </main>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 
 </html>
