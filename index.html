@@ -10,7 +10,7 @@
   <script src="https://kit.fontawesome.com/668d372fa7.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="container-fluid full-body">
+<body class="container-fluid full-body col-12 col-lg-11">
   <main>
     <header class="desktop-navbar-first d-none d-lg-block sticky-top fixed-top">
       <div class="desktop-navbar">
@@ -25,20 +25,22 @@
         </nav>
       </div>
 </header>
-   <header class="desktop-navbar-last d-none d-lg-block  pb-5">
-        <nav class=" d-flex justify-content-between mt-2 ">
+   <header class="desktop-navbar-last d-none border-bottom d-lg-block mb-3  pb-3">
+        <nav class="nav-last  d-flex  mt-3 ">
 
-          <a href="#" class="low-nav font-weight-bold border-right pr-2">U.S</a>
-          <a href="#" class="low-nav font-weight-bold border-right pr-2">World</a>
-          <a href="#" class="low-nav font-weight-bold border-right pr-2">Tech & Science</a>
-          <a href="#" class="low-nav font-weight-bold border-right pr-2">Culture</a>
-          <a href="#" class="low-nav font-weight-bold border-right pr-2">Newsgeek</a>
-          <a href="#" class="low-nav font-weight-bold border-right pr-2">Sports</a>
-          <a href="#" class="low-nav font-weight-bold border-right pr-2">Health</a>
-          <a href="#" class="low-nav font-weight-bold border-right pr-2">The Debate</a>
+          <a href="#" class="low-nav font-weight-bold border-right pr-4">U.S</a>
+          <a href="#" class="low-nav font-weight-bold border-right pr-4">World</a>
+          <a href="#" class="low-nav font-weight-bold border-right pr-4">Tech & Science</a>
+          <a href="#" class="low-nav font-weight-bold border-right pr-4">Culture</a>
+          <a href="#" class="low-nav font-weight-bold border-right pr-4">Newsgeek</a>
+          <a href="#" class="low-nav font-weight-bold border-right pr-4">Sports</a>
+          <a href="#" class="low-nav font-weight-bold border-right pr-4">Health</a>
+          <a href="#" class="low-nav font-weight-bold border-right pr-4">The Debate</a>
           <a href="#" class="low-nav font-weight-bold border-right pr-2">Weather</a>
+          <div class="search">
+            <span>Search <i class="fas fa-search pl-3"></i></span>
+          </div>
 
-          <span>Search <i class="fas fa-search"></i></span>
 
         </nav>
 
@@ -46,8 +48,8 @@
     <header class=" sticky-top fixed-top d-lg-none d-sm-block">
       <div class="w-100">
         <nav class="navbar first-nav">
-          <i class="fas fa-cloud-sun">27°null, MU > </i>
-          <img src="images/logo.png" alt="logo">
+          <img id="nav-logo" src="images/logo.png" alt="logo">
+          <i class="fas fa-cloud-sun mr-auto">27°null, MU > </i>
           <div class="right-nav">
             <a href="#">SIGN IN </a>
             <button type="button" class="btn-light mx-auto" name="button">Subscribe ></button>
@@ -58,7 +60,7 @@
      </div>
     </header>
 
-    <section>
+    <section class="top-section">
       <h1>hi</h1>
       <div class="container-fluid ">
         <div class="row d-flex">
@@ -343,7 +345,7 @@
       </div>
     </section>
 
-    <section class="magazine mt-2 ">
+    <section class="magazine mt-4 ">
       <div class="container-fluid">
         <div class="row ">
           <div class="border-bottom mb-3 col-lg-12 col-md-12 d-flex justify-content-center">
@@ -388,7 +390,7 @@
 
     </section>
 
-    <section class="editors mt-2">
+    <section class="editors mt-4">
       <h1>hi</h1>
         <div class="d-flex d-flex justify-content-center">
             <h4 class=""> <img src="images/l.png" alt=""> EDITOR'S PICK</h4>
@@ -444,7 +446,7 @@
 
     </section>
 
-    <section>
+    <section class="mt-4">
       <h1>Hi</h1>
       <div class="">
   <div class = "slideshow-heading d-flex justify-content-center mt-2"> <h4><img src="images/slide.png" class="navbar-brand" alt=""> FEATURED SLIDESHOW</h4></div>
@@ -487,16 +489,14 @@
             <a href="#" class="font-weight-bold">Conservative Author Warns Coronavirus 'Could Give Rise to the Antichrist'</a>
           </div>
 
-          <div class="col-lg-4  d-flex flex-column col-md-4">
+          <div class="us-aside1 col-lg-4  d-flex flex-column col-md-4">
             <div class=" d-flex us-aside mb-2">
               <a href="#"><img src="https://d.newsweek.com/en/full/1575426/coronavirus-race-vaccine-china-us.jpg?w=95&h=95&f=9e18e6adfcf34e876d51a2b68664e038" alt=""></a>
               <p class="ml-2 font-weight-bold"><a href="#">What Can You Do With Your Membership If the State Shuts Down Your Gym?</a></p>
-
             </div>
             <div class="d-flex us-aside mb-2">
               <a href="#"><img src="https://d.newsweek.com/en/full/1575448/coronavirus-italy.jpg?w=95&h=95&f=70448f37d1ef154c138b10bbf7799d24"  alt=""></a>
               <p class="ml-2 font-weight-bold"><a href="#">#YangWasRight Trends As Trump Eyes Giving Americans Checks Amid Pandemic</a></p>
-
             </div>
             <div class="d-flex us-aside mb-2">
               <a href="#"><img src="https://d.newsweek.com/en/full/1575426/coronavirus-race-vaccine-china-us.jpg?w=95&h=95&f=9e18e6adfcf34e876d51a2b68664e038"  alt=""></a>
@@ -522,7 +522,7 @@
             <a href="#" class="font-weight-bold">Conservative Author Warns Coronavirus 'Could Give Rise to the Antichrist'</a>
           </div>
 
-          <div class="col-lg-4 d-flex flex-column col-md-4">
+          <div class="us-aside1 col-lg-4 d-flex flex-column col-md-4">
             <div class="d-flex us-aside">
               <a href="#"><img src="https://d.newsweek.com/en/full/1575426/coronavirus-race-vaccine-china-us.jpg?w=95&h=95&f=9e18e6adfcf34e876d51a2b68664e038" class="mb-2" alt=""></a>
               <p class="ml-2 font-weight-bold"><a href="#">What Can You Do With Your Membership If the State Shuts Down Your Gym?</a></p>
@@ -557,7 +557,7 @@
             <a href="#" class="font-weight-bold">Conservative Author Warns Coronavirus 'Could Give Rise to the Antichrist'</a>
           </div>
 
-          <div class="col-lg-4  d-flex flex-column col-md-4">
+          <div class="us-aside1 col-lg-4  d-flex flex-column col-md-4">
             <div class="d-flex us-aside ">
               <a href="#"><img src="https://d.newsweek.com/en/full/1575426/coronavirus-race-vaccine-china-us.jpg?w=95&h=95&f=9e18e6adfcf34e876d51a2b68664e038" class=" mb-2" alt=""></a>
               <p class="ml-2 font-weight-bold"><a href="#">What Can You Do With Your Membership If the State Shuts Down Your Gym?</a></p>
@@ -592,7 +592,7 @@
             <a href="#" class="font-weight-bold">Conservative Author Warns Coronavirus 'Could Give Rise to the Antichrist'</a>
           </div>
 
-          <div class="col-lg-4  d-flex flex-column col-md-4">
+          <div class="us-aside1 col-lg-4  d-flex flex-column col-md-4">
             <div class="d-flex us-aside">
               <a href="#"><img src="https://d.newsweek.com/en/full/1575448/coronavirus-italy.jpg?w=95&h=95&f=70448f37d1ef154c138b10bbf7799d24" class="mb-2" alt=""></a>
               <p class="ml-2 font-weight-bold"><a href="#">What Can You Do With Your Membership If the State Shuts Down Your Gym?</a></p>
@@ -627,7 +627,7 @@
             <a href="#" class="font-weight-bold">Conservative Author Warns Coronavirus 'Could Give Rise to the Antichrist'</a>
           </div>
 
-          <div class="col-lg-4 d-flex flex-column col-md-4">
+          <div class="us-aside1 col-lg-4 d-flex flex-column col-md-4">
             <div class="d-flex us-aside">
               <a href="#"><img src="https://d.newsweek.com/en/full/1575398/tom-brady-new-england-patriots.jpg?w=95&h=95&f=57d5d2946e90c823b44338fa9430b200" class=" mb-2" alt=""></a>
               <p class="ml-2 font-weight-bold"><a href="#">What Can You Do With Your Membership If the State Shuts Down Your Gym?</a></p>
@@ -654,22 +654,22 @@
         <h4>SUBSCRIBE</h4>
         <div class="row">
 
-          <div class="subscribe-long  d-flex  mt-3 col-lg-8 col-md-12">
+          <div class="text-center subscribe-long pb-0 d-flex  mt-3 col-lg-8 col-md-12">
 
            <div class="subscribe-main position-relative">
              <img src="https://d.newsweek.com/en/full/1572460/march-13-2020.jpg?w=170&q=95&f=52ec8e410e9337459df2777847b09b11" class="subscribe-img" alt="">
              <img src="https://d.newsweek.com/en/full/1574205/march-20-27-2020-cover.jpg?w=170&q=95&f=d09d4323d899b185262420c3499dcda8" class="position-absolute subscribe-img1"  alt="">
            </div>
 
-           <div class="subscribe-aside float-right flex-column ml-5 pl-5 mt-5" >
-             <h3>In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h3>
+           <div class="subscribe-aside float-right flex-column ml-3 pl-5 mt-5" >
+             <h4>In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h4>
              <p>All Access + Weekly Delivery. <br> Choose A Membership That's Perfect for You!</p>
              <span class="p-2 border">SUBSCRIBE > </span>
 
            </div>
           </div>
 
-        <div class="mt-2 col-lg-4 col-md-12">
+        <div class="mt-2 col-lg-4 col-xl-4 col-md-12">
 
           <div class=" subscribe-short d-flex">
             <img id="newsletter-img" src="https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5"  alt="">
@@ -686,24 +686,30 @@
       </div>
     </section>
 
-    <footer>
-      <div class="container-fluid">
+    <footer class="mt-3">
+      <div class="container-fluid col-lg-12 col-md-12 col-sm-12">
         <div class="row">
-          <div class="col news-letter border-top mt-2">
+          <div class="footer-content d-flex flex-row  border-bottom news-letter border-top mt-2 col-lg-12 col-md-12 col-sm-12">
 
-            <div class="">
+            <div class="footer-logo d-flex align-self-start mt-3">
             <img src="img/13.png" class="img-footer" alt="">
             <span>© 2020 NEWSWEEK</span>
-            <i class="fab fa-facebook-square mr-2"></i>
-            <i class="fab fa-twitter mr-2"></i>
-            <i class="fab fa-instagram mr-2"></i>
-            <i class="fab fa-tumblr mr-2"></i>
-            <i class="fab fa-linkedin-in mr-2"></i>
-            <hr>
+          </div>
+
+            <div class="mt-4 d-flex ml-auto pb-2 footer-icons">
+            <span><i class="fab fa-facebook-square mr-2"></i></span>
+            <span><i class="fab fa-twitter mr-2"></i></span>
+            <span><i class="fab fa-instagram mr-2"></i></span>
+            <span><i class="fab fa-tumblr mr-2"></i></span>
+            <span><i class="fab fa-linkedin-in mr-2"></i></span>
             </div>
+          </div>
+            <div class="mt-4 pl-2">
             <span class="footer-span">Editions: U.S Edition | 日本 | Pakistan | Polska | România</span> <br>
+
+             <div class="footer-items">
             <a href="#">About US |</a>
-            <a href="#" class="mr-2"> Corrections |</a>
+            <a href="#" class="mr-2 "> Corrections |</a>
             <a href="#" class="mr-2"> Contact US |</a>
             <a href="#" class="mr-2"> Editorial Guidelines |</a>
             <a href="#" class="mr-2"> Advertise |</a>
@@ -713,9 +719,10 @@
             <a href="#" class="mr-2"> Cookie Policy |</a>
             <a href="#" class="mr-2"> Terms of Sale |</a>
             <a href="#" class="mr-2"> Archive |</a>
-            <a href="#" class="mr-2"> Announcements |</a> <br>
+            <a href="#" class="mr-2"> Announcements |</a>
             <a href="#" class="mr-2">Consent preferences</a>
 
+           </div>
           </div>
 
         </div>

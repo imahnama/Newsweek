@@ -1,13 +1,28 @@
+@media (min-width: 992px) and (max-width: 1430px) {
+  img#newsletter-img {
+    margin-top: 10px;
+    width: 40%;
+    height: 250px;
+  }
+
+  .subscribe-short {
+    border: 1px solid ebebeb;
+  }
+
+  .subscribe-text h3 {
+    font-size: 17px;
+  }
+}
+
 @media (min-width: 778px) and (max-width: 991px) {
   div.subscribe-long {
     display: flex;
-    padding: 25px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
   }
 
   .subscribe-aside {
     margin-top: 50px;
-    font-size: 13px;
+    font-size: 14px;
   }
 
   img#newsletter-img {
@@ -18,6 +33,23 @@
   .subscribe-text {
     font-size: 13px;
     margin-bottom: 45px;
+  }
+
+  .top-section {
+    margin-top: 15px;
+  }
+
+  .us-aside img {
+    width: 70px;
+    height: 70px;
+  }
+
+  div.us-aside {
+    line-height: 1em;
+  }
+
+  div.mag-main a {
+    font-size: 20px;
   }
 }
 
@@ -30,7 +62,11 @@
     padding: 15px;
   }
 
-  .subscribe-aside h3 {
+  div.us-aside1 {
+    margin-top: 20px;
+  }
+
+  .subscribe-aside h4 {
     font-size: 15px;
   }
 
@@ -39,6 +75,7 @@
     text-align: center;
     margin-top: 50px;
     font-size: 13px;
+    margin-bottom: 20px;
   }
 
   div.subscribe-short {
@@ -49,15 +86,37 @@
     margin-bottom: 15px;
   }
 
-  img#newsletter-img {
-    width: 100%;
-    height: 200px;
-  }
-
   .subscribe-text {
     text-align: center;
     font-size: 13px;
     margin-top: 5px !important;
+  }
+
+  .top-section {
+    margin-top: 15px;
+  }
+
+  .us-aside img {
+    width: 70px;
+    height: 70px;
+  }
+
+  div.us-aside {
+    line-height: 1em;
+  }
+
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  div.mag-main a {
+    font-size: 20px;
+  }
+
+  .magazine,
+  .editors {
+    line-height: 1.5em;
   }
 }
 
@@ -69,24 +128,18 @@ h1 {
   display: none;
 }
 
-.hanging-thing::before {
-  width: 66px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  content: "";
-  display: block;
-  background-color: #f72210;
-  border-left: 12px solid #fff;
-  border-top: 13px solid #f72210;
-}
-
 .first-nav {
   background-color: #f72110;
 }
 
+img#nav-logo {
+  width: 150px;
+}
+
 footer a,
 .footer-span {
+  font-size: 14px;
+  line-height: 2em;
   color: #666;
 }
 
@@ -142,6 +195,11 @@ footer a,
 footer a:hover {
   color: black;
   text-decoration: none;
+}
+
+.nav-last {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .desktop-navbar-last a:hover {
@@ -235,14 +293,6 @@ main {
   text-decoration: none;
 }
 
-.congress {
-  height: 90px;
-}
-
-.congress1 {
-  margin-bottom: 20px;
-}
-
 .us-heading {
   color: red;
 }
@@ -257,10 +307,6 @@ main {
   height: auto;
 }
 
-.news-letter span {
-  margin-right: 53%;
-}
-
 .news-letter i {
   font-size: 20px;
 }
@@ -270,9 +316,19 @@ main {
   left: 50px;
 }
 
+.subscribe-aside h4 {
+  color: black;
+}
+
+.subscribe-aside span,
+.subscribe-text span {
+  background-color: #f72110;
+  color: white;
+}
+
 #newsletter-img {
   width: 200px;
-  height: 300px;
+  height: auto;
 }
 
 .op-float {
