@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/imahnama/Newsweek/development/index.html)
+[Live Demo Link](https://rawcdn.githack.com/imahnama/Newsweek/6cc7e6e938cf3b1f7edb2cabcf6832cb85d55272/index.html)
 
 ## Getting Started
 
