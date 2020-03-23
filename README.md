@@ -5,6 +5,8 @@
 
 > ![screenshot](11.png)
 
+This project is built using bootstrap. The aim of the project is to master the bootsrap classes and grid system.
+
 ## Built With
 
 - HTML &,
