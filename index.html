@@ -12,7 +12,7 @@
 
 <body class="container-fluid full-body">
   <main>
-    <header class="desktop-navbar-first d-lg-block d-sm-none sticky-top fixed-top">
+    <header class="desktop-navbar-first d-none d-lg-block sticky-top fixed-top">
       <div class="desktop-navbar">
         <nav class="navbar first-nav">
           <i class="fas fa-cloud-sun">27°null, MU > </i>
@@ -23,55 +23,39 @@
           </div>
 
         </nav>
+      </div>
 </header>
-   <header class="desktop-navbar-last d-lg-block d-sm-none pb-5">
+   <header class="desktop-navbar-last d-none d-lg-block  pb-5">
         <nav class=" d-flex justify-content-between mt-2 ">
 
-          <a href="#" class="font-weight-bold border-right pr-2">U.S</a>
-          <a href="#" class="font-weight-bold border-right pr-2">World</a>
-          <a href="#" class="font-weight-bold border-right pr-2">Tech & Science</a>
-          <a href="#" class="font-weight-bold border-right pr-2">Culture</a>
-          <a href="#" class="font-weight-bold border-right pr-2">Newsgeek</a>
-          <a href="#" class="font-weight-bold border-right pr-2">Sports</a>
-          <a href="#" class="font-weight-bold border-right pr-2">Health</a>
-          <a href="#" class="font-weight-bold border-right pr-2">The Debate</a>
-          <a href="#" class="font-weight-bold border-right pr-2">Weather</a>
+          <a href="#" class="low-nav font-weight-bold border-right pr-2">U.S</a>
+          <a href="#" class="low-nav font-weight-bold border-right pr-2">World</a>
+          <a href="#" class="low-nav font-weight-bold border-right pr-2">Tech & Science</a>
+          <a href="#" class="low-nav font-weight-bold border-right pr-2">Culture</a>
+          <a href="#" class="low-nav font-weight-bold border-right pr-2">Newsgeek</a>
+          <a href="#" class="low-nav font-weight-bold border-right pr-2">Sports</a>
+          <a href="#" class="low-nav font-weight-bold border-right pr-2">Health</a>
+          <a href="#" class="low-nav font-weight-bold border-right pr-2">The Debate</a>
+          <a href="#" class="low-nav font-weight-bold border-right pr-2">Weather</a>
 
           <span>Search <i class="fas fa-search"></i></span>
 
         </nav>
 
-      </div>
-
     </header>
-    <header class="d-none d-sm-block d-md-none">
-      <div class="mobile-navbar">
-        <nav class="navbar  mobile-nav">
-          <div class="container-fluid">
-
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#">Newsweek</a>
-            </div>
-
-
-            <div class="collapse navbar-collapse nav-i" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="#">SIGN IN <span class="sr-only">(current)</span></a></li>
-                <li><a href="#">SUBSCRIBE</a></li>
-              </ul>
-              <i class="fas fa-bars fa-lg"></i>
-            </div>
+    <header class=" sticky-top fixed-top d-lg-none d-xl-block ">
+      <div class="w-100">
+        <nav class="navbar first-nav">
+          <i class="fas fa-cloud-sun">27°null, MU > </i>
+          <img src="images/logo.png" alt="logo">
+          <div class="right-nav">
+            <a href="#">SIGN IN </a>
+            <button type="button" class="btn-light mx-auto" name="button">Subscribe ></button>
+            <span><i class="fas fa-bars"></i></span>
           </div>
+
         </nav>
-
-      </div>
-
+     </div>
     </header>
 
     <section>
@@ -179,7 +163,7 @@
               </div>
             </div>
               <div class="d-flex border-bottom pt-2">
-                <img class="story-img"src="https://d.newsweek.com/en/full/1574135/covid-19-test.jpg?w=95&h=95&f=fc341882e557da225ee3189ee5966ca4" alt="">
+                <img class="story-img" src="https://d.newsweek.com/en/full/1574135/covid-19-test.jpg?w=95&h=95&f=fc341882e557da225ee3189ee5966ca4" alt="">
                 <div class="more-stories mt-0">
                 <a href="#" class="font-weight-bold">Massachusetts Firm Says It Has 1.5 Million Coronavirus Tests Ready to Ship</a>
                 <p class="mt-2">Thermo Fisher Scientific said the available tests will initially be distributed to approximately 200 labs in the U.S.</p>
@@ -271,11 +255,11 @@
             </div>
           </div>
 
-          <div class="mt-2 font-weight-bold border-bottom">
+          <div class="op-float mt-2 font-weight-bold">
           <h6 class="heading font-weight-bold">THE DEBATE</h6>
          </div>
 
-         <div class="op-img d-flex border-bottom  pt-2">
+         <div class="op-img op-float2 d-flex pt-2 pb-2">
         <img src="https://d.newsweek.com/en/full/1572572/farage-johnson-corona.jpg?w=95&h=95&f=b1ac037a70167a44b3926d7c94876317" class="float-left pt-2" alt="">
          <div class="debate-p d-flex flex-column float-right ml-2 font-weight-bold">
          <a href="#" class="font-weight-bold">Protecting Us All From an Epidemic Should Be Prioritized Over the Economy</a>
@@ -286,10 +270,12 @@
          <span>BY </span> <span class="font-weight-bold">NIGEL FARAGE</span>
         <img src="https://d.newsweek.com/en/full/1563625/nigel-farage.png?w=150&h=150&f=2ae37ecc11a3397b627c243707faa3cb" class="float-right" alt="">
        </div>
-       <div class="rounded-circle w-20 h-20">
-
+        <div class="position-relative pb-2">
+       <div class="float-round rounded-circle">
+            <span class="text-align-center">VS</span>
        </div>
-       <div class="op-img d-flex border-bottom border-top mt-5">
+       </div>
+       <div class="op-img d-flex border-top mt-5">
       <img src="https://d.newsweek.com/en/full/1572870/coronavirus-italy.jpg?w=95&h=95&f=4936584f71fad398505b1f91cd5a9721" class="float-left pt-2" alt="">
        <div class=" debate-p d-flex flex-column float-right ml-2 font-weight-bold">
        <a href="#" class="font-weight-bold">In the Fight Against COVID-19, We Need to Protect Both Lives and Livelihoods</a>
@@ -354,101 +340,101 @@
 
           </div>
         </div>
+      </div>
     </section>
 
-    <section class="magazine ">
+    <section class="magazine mt-2 ">
       <div class="container-fluid">
         <div class="row ">
-          <div class="col-lg-12 col-md-12 ">
+          <div class="border-bottom mb-3 col-lg-12 col-md-12 d-flex justify-content-center">
             <h4> <img src="images/l.png" class="navbar-brand" alt=""> IN THE MAGAZINE</h4>
-            <hr>
           </div>
 
           <div class="col-lg-3  col-md-3 ">
-            <img src="https://d.newsweek.com/en/full/1574205/march-20-27-2020-cover.jpg?w=360&h=480&q=90&f=f32c43b8e7ecd7514c13923e4edef489" class="img-fluid" alt="">
+            <img src="https://d.newsweek.com/en/full/1574205/march-20-27-2020-cover.jpg?w=360&h=480&q=90&f=f32c43b8e7ecd7514c13923e4edef489" class="img-fluid pb-2" alt="">
           </div>
-          <div class="col-lg-3 col-md-3">
-            <img src="images/e.png" class="img-fluid" alt="">
-            <a href="#">Is Bernie Sanders Right About Medicare For All?</a>
+          <div class="mag-main col-lg-3 col-md-3">
+            <img src="images/e.png" class="img-fluid pb-2" alt="">
+            <a href="#" class="font-weight-bold">Is Bernie Sanders Right About Medicare For All?</a>
           </div>
-          <div class="col-lg-3  col-md-3 ">
-            <img src="images/f.png" class="img-fluid" alt="">
-            <a href="#">How to Stay Sane In a Crazy Market</a>
+          <div class="mag-main col-lg-3  col-md-3 ">
+            <img src="images/f.png" class="img-fluid pb-2" alt="">
+            <a href="#" class="font-weight-bold">How to Stay Sane In a Crazy Market</a>
           </div>
-          <div class="col-lg-3  col-md-3 ">
-            <img src="images/g.png" class="img-fluid" alt="">
-            <a href="#">Sanders Is Beating Biden In the Race for Donations From Hollywood's Elite</a>
+          <div class="mag-main col-lg-3  col-md-3 ">
+            <img src="images/g.png" class="img-fluid pb-2" alt="">
+            <a href="#" class="font-weight-bold">Sanders Is Beating Biden In the Race for Donations From Hollywood's Elite</a>
           </div>
-          <div class="col-lg-3  col-md-3 ">
-            <img src="images/h.png" class="img-fluid" alt="">
-            <a href="#">Past Pandemics By The Numbers and How Coronavirus Fits In</a>
+          <div class="mag-main col-lg-3  col-md-3 ">
+            <img src="images/h.png" class="img-fluid pb-2" alt="">
+            <a href="#" class="font-weight-bold">Past Pandemics By The Numbers and How Coronavirus Fits In</a>
           </div>
-          <div class="col-lg-3  col-md-3 ">
-            <img src="images/i.png" class="img-fluid" alt="">
-            <a href="#">The Grandest Olympic Stadiums of All Time</a>
+          <div class="mag-main col-lg-3  col-md-3 ">
+            <img src="images/i.png" class="img-fluid pb-2" alt="">
+            <a href="#" class="font-weight-bold">The Grandest Olympic Stadiums of All Time</a>
           </div>
-          <div class="col-lg-3  col-md-3 ">
-            <img src="images/j.png" class="img-fluid" alt="">
-            <a href="#">Project Runway's Elaine Welteroth On How Fashion Can Be a Force for Change</a>
+          <div class="mag-main col-lg-3  col-md-3 ">
+            <img src="images/j.png" class="img-fluid pb-2" alt="">
+            <a href="#" class="font-weight-bold">Project Runway's Elaine Welteroth On How Fashion Can Be a Force for Change</a>
           </div>
-          <div class="col-lg-3 col-md-3 ">
-            <img src="images/k.png" class="img-fluid" alt="">
-            <a href="#">THE AFTERMATH</a>
+          <div class="mag-main col-lg-3 col-md-3 ">
+            <img src="images/k.png" class="img-fluid pb-2" alt="">
+            <a href="#" class="font-weight-bold">THE AFTERMATH</a>
           </div>
 
         </div>
 
       </div>
-   </div>
+
     </section>
 
-    <section class="editors ">
+    <section class="editors mt-2">
       <h1>hi</h1>
-        <div class="d-flex">
-            <h4 class="d-flex justify-content-center"> <img src="images/l.png" alt=""> EDITOR'S PICK</h4>
+        <div class="d-flex d-flex justify-content-center">
+            <h4 class=""> <img src="images/l.png" alt=""> EDITOR'S PICK</h4>
 
           </div>
           <div class="container-fluid">
             <div class="row">
-          <div class="col-lg-3 col-md-6">
+          <div class="mag-main col-lg-3 col-md-6">
             <img src="images/m.png" class="img-fluid" alt="">
-            <a href="#">Russians Send Open Letter Decrying Putin 'Coup' to Stay in Power</a>
+            <a href="#" class="font-weight-bold">Russians Send Open Letter Decrying Putin 'Coup' to Stay in Power</a>
             <p>Putin has officially asked the Russian Constitutional Court to approve changes that would allow him to circumvent existing term limits.</p>
           </div>
 
-          <div class="col-lg-3 col-md-6">
+          <div class="mag-main col-lg-3 col-md-6">
             <img src="images/n.png" class="img-fluid" alt="">
-            <a href="#">ACLU Sues ICE for Release of Immigrant Detainees Vulnerable to Coronavirus</a>
+            <a href="#" class="font-weight-bold">ACLU Sues ICE for Release of Immigrant Detainees Vulnerable to Coronavirus</a>
             <p>"People who are at risk of illness or death from COVID-19 should be released," said ACLU senior staff attorney Eunice Cho.</p>
           </div>
-          <div class="col-lg-3 col-md-6">
+          <div class="mag-main col-lg-3 col-md-6">
             <img src="images/o.png" class="img-fluid" alt="">
-            <a href="#">Ancient Petroglyph of Creature That Is Half Man Half Mantis Discovered</a>
+            <a href="#" class="font-weight-bold">Ancient Petroglyph of Creature That Is Half Man Half Mantis Discovered</a>
             <p>The rock art was found in the central Markazi Province and appears to depict a praying mantis and a squatting man.</p>
           </div>
-          <div class="col-lg-3 col-md-6">
+          <div class="mag-main col-lg-3 col-md-6">
             <img src="images/p.png" class="img-fluid" alt="">
-            <a href="#">Donovan Mitchell Reveals 'Scariest Part' of COVID-19 After Testing Positive</a>
+            <a href="#" class="font-weight-bold">Donovan Mitchell Reveals 'Scariest Part' of COVID-19 After Testing Positive</a>
             <p>Mitchell became the second NBA player to test positive for COVID-19 after teammate Rudy Gobert last week.</p>
           </div>
-          <div class="col-lg-3 col-md-6">
+          <div class="mag-main col-lg-3 col-md-6">
             <img src="images/q.png" class="img-fluid" alt="">
-            <a href="#">Granddaughter of Disney Co-Founder Dumbfounded After Crowds Gather at Park</a>
+            <a href="#" class="font-weight-bold">Granddaughter of Disney Co-Founder Dumbfounded After Crowds Gather at Park</a>
             <p>"Are you f**king kidding me??" Abigail Disney wrote on Twitter on Monday, responding to photos of a crowded Disney World.</p>
           </div>
-          <div class="col-lg-3 col-md-6">
+          <div class="mag-main col-lg-3 col-md-6">
             <img src="images/r.png" class="img-fluid" alt="">
-            <a href="#">Testing of COVID-19 'Cure' Starting in Weeks, Vaccine Trial Underway</a>
+            <a href="#" class="font-weight-bold">Testing of COVID-19 'Cure' Starting in Weeks, Vaccine Trial Underway</a>
             <p>There is currently no vaccine or treatment available for the virus which has killed over 6,500 people according to Johns Hopkins University.</p>
           </div>
-          <div class="col-lg-3 col-md-6 ">
+          <div class="mag-main col-lg-3 col-md-6 ">
             <img src="images/s.png" class="img-fluid" alt="">
-            <a href="#">Grocery Stores Opening Early for Senior Citizens: Store Hours</a>
+            <a href="#" class="font-weight-bold">Grocery Stores Opening Early for Senior Citizens: Store Hours</a>
             <p>Major grocery store chains like Walmart and Publix have adjusted their store hours, and some chains are opening early for senior citizens.</p>
           </div>
-          <div class="col-lg-3 col-md-6">
+          <div class="mag-main col-lg-3 col-md-6">
             <img src="images/t.png" class="img-fluid" alt="">
-            <a href="#">Coronavirus Can't Be Passed From Mothers to Babies During Labor: Study</a>
+            <a href="#" class="font-weight-bold">Coronavirus Can't Be Passed From Mothers to Babies During Labor: Study</a>
             <p>There is no evidence the virus can be passed on during pregnancy or in breastmilk, according to The Royal College of Obstetricians and Gynaecologists.</p>
           </div>
 
@@ -460,9 +446,11 @@
 
     <section>
       <h1>Hi</h1>
-      <div class="slideshow-heading">
-        <h4><img src="images/slide.png" class="navbar-brand" alt=""> FEATURED SLIDESHOW</h4>
-        <hr>
+      <div class="">
+  <div class = "slideshow-heading d-flex justify-content-center mt-2"> <h4><img src="images/slide.png" class="navbar-brand" alt=""> FEATURED SLIDESHOW</h4></div>
+
+
+
       </div>
       <div class="container-fluid">
         <div class="row">
@@ -666,7 +654,7 @@
         <h4>SUBSCRIBE</h4>
         <div class="row">
 
-          <div class="subscribe-long  d-flex  mt-3 col-lg-8 col-md-8">
+          <div class="subscribe-long  d-flex  mt-3 col-lg-8 col-md-12">
 
            <div class="subscribe-main position-relative">
              <img src="https://d.newsweek.com/en/full/1572460/march-13-2020.jpg?w=170&q=95&f=52ec8e410e9337459df2777847b09b11" class="subscribe-img" alt="">
@@ -681,10 +669,10 @@
            </div>
           </div>
 
-        <div class="mt-2 col-lg-4 col-md-4">
+        <div class="mt-2 col-lg-4 col-md-12">
 
           <div class=" subscribe-short d-flex">
-            <img id="newsletter-img"src="https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5"  alt="">
+            <img id="newsletter-img" src="https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5"  alt="">
             <div class="subscribe-text flex-column ml-3 mt-5">
               <h3>The Starting 5</h3>
               <p>See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>

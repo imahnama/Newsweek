@@ -1,14 +1,25 @@
-/* @media (max-width: 990px) {
-  .mobile-navbar {
-    display: inherit !important;
+@media (min-width: 778px) and (max-width: 991px) {
+  div.subscribe-long {
+    display: flex;
+    padding: 25px;
+    margin-bottom: 15px;
   }
 
-  .desktop-navbar-first,
-  .desktop-navbar-last {
-    display: none;
+  .subscribe-aside {
+    margin-top: 50px;
+    font-size: 13px;
   }
-} */
 
+  img#newsletter-img {
+    width: 200px;
+    height: auto;
+  }
+
+  .subscribe-text {
+    font-size: 13px;
+    margin-bottom: 45px;
+  }
+}
 
 @media (max-width: 767px) {
   div.subscribe-long {
@@ -20,7 +31,7 @@
   }
 
   .subscribe-aside h3 {
-      font-size: 15px;
+    font-size: 15px;
   }
 
   .subscribe-aside {
@@ -38,14 +49,12 @@
     margin-bottom: 15px;
   }
 
-img#newsletter-img {
-    width: auto;
-    height: auto;
-    border: 1px solid red;
+  img#newsletter-img {
+    width: 100%;
+    height: 200px;
   }
 
   .subscribe-text {
-    border: 1px solid red;
     text-align: center;
     font-size: 13px;
     margin-top: 5px !important;
@@ -53,14 +62,7 @@ img#newsletter-img {
 }
 
 .full-body {
-  background-color: #f4f5F6;
-}
-
-.nav-i i {
-  color: white;
-  position: absolute;
-  right: 10px;
-  top: 20px;
+  background-color: #f4f5f6;
 }
 
 h1 {
@@ -69,44 +71,18 @@ h1 {
 
 .hanging-thing::before {
   width: 66px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    content: "";
-    display: block;
-    background-color: #f72210;
-    border-left: 12px solid #fff;
-    border-top: 13px solid #f72210;
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  display: block;
+  background-color: #f72210;
+  border-left: 12px solid #fff;
+  border-top: 13px solid #f72210;
 }
 
 .first-nav {
   background-color: #f72110;
-}
-
-.low-nav i {
-  font-size: 20px;
-}
-
-.low-nav span {
-  font-size: 18px;
-}
-
-.more-stories a {
-  font-family: Roboto Condensed;
-  font-size: 15px;
-  color: black;
-}
-
-more-stories p {
-  font-family: Arial;
-  font-size: 15px;
-  color: #4C4C4C;
-}
-
-.rounded-circle {
-  background-color: black;
-  height: 30px;
-  width: 30px;
 }
 
 footer a,
@@ -114,21 +90,68 @@ footer a,
   color: #666;
 }
 
-.low-nav a {
+.more-stories a {
+  font-family: Roboto Condensed, Arial, Helvetica, sans-serif;
+  font-size: 15px;
   color: black;
-  font-size: 17px;
-  margin-right: 13px;
-  margin-left: 10px;
 }
 
-nav img {
-  justify-content: center;
-  width: 30%;
+.more-stories p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #4c4c4c;
+}
+
+.rounded-circle {
+  background-color: black;
+  text-align: center;
+  color: white;
+  height: 40px;
+  width: 40px;
+}
+
+.low-nav {
+  color: black;
 }
 
 .first-nav a {
   color: white;
   font-size: 18px;
+}
+
+.featured1 a,
+.us-main a,
+.mag-main a {
+  font-family: Roboto Condensed, Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 22px;
+}
+
+.us-aside a {
+  font-family: Roboto Condensed, Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: black;
+}
+
+.debate-p a {
+  color: black;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.desktop-navbar-last a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+nav img {
+  justify-content: center;
+  width: 30%;
 }
 
 .first-nav i {
@@ -145,7 +168,7 @@ nav img {
 }
 
 main {
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .heading {
@@ -158,11 +181,11 @@ main {
   color: black;
 }
 
- .story-img {
-   width: 120px;
-   height: 100px;
-   margin-right: 10px;
- }
+.story-img {
+  width: 120px;
+  height: 100px;
+  margin-right: 10px;
+}
 
 .op-img img {
   width: 70px;
@@ -174,40 +197,16 @@ main {
 }
 
 .top-p1 {
-  color: #B1B1B1;
-}
-
-.debate-p a {
-  color: black;
-  font-size: 14px;
-  text-decoration: none;
+  color: #b1b1b1;
 }
 
 .us-aside span {
-  color: #555555;
+  color: #555;
   font-size: 13px;
 }
 
 .subscribe-long {
-  background-color: #F4F5F6;
-}
-
-.featured1 a,
-.us-main a {
-  font-family: Roboto Condensed;
-  color: black;
-  font-size: 22px;
-}
-
-.us-aside a {
-  font-family: Roboto Condensed;
-  font-size: 15px;
-  color: black;
-}
-
-footer a:hover {
-  color: black;
-  text-decoration: none;
+  background-color: #f4f5f6;
 }
 
 .us-aside a:hover {
@@ -215,7 +214,8 @@ footer a:hover {
   text-decoration: none;
 }
 
-.us-main a:hover {
+.us-main a:hover,
+.mag-main a:hover {
   color: black;
   text-decoration-color: red;
 }
@@ -241,11 +241,6 @@ footer a:hover {
 
 .congress1 {
   margin-bottom: 20px;
-}
-
-.more-stories {
-  margin-top: 30px;
-  font-size: 14px;
 }
 
 .us-heading {
@@ -278,4 +273,22 @@ footer a:hover {
 #newsletter-img {
   width: 200px;
   height: 300px;
+}
+
+.op-float {
+  border-bottom: 2px double red;
+}
+
+.op-float1 {
+  border-bottom: 2px double grey;
+}
+
+.float-round {
+  position: absolute;
+  left: 120px;
+  top: 0;
+}
+
+.op-float2 {
+  border-bottom: 2px solid lightblue;
 }
