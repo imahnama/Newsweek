@@ -87,8 +87,8 @@
   }
 
   div.footer-icons {
-    margin-left:5px !important;
-    margin-top:5px !important;
+    margin-left: 5px !important;
+    margin-top: 5px !important;
   }
 
   div.footer-logo,
@@ -96,12 +96,17 @@
     display: block !important;
   }
 
-  nav.first-nav i{
+  nav.first-nav i {
     font-size: 13px;
   }
 
   div.us-aside1 {
     margin-top: 20px;
+  }
+
+  .us-aside img {
+    width: 70px;
+    height: 70px;
   }
 
   div.culture-travel img {
@@ -152,11 +157,6 @@
     margin-top: 15px;
   }
 
-  .us-aside img {
-    width: 70px;
-    height: 70px;
-  }
-
   div.us-aside {
     line-height: 1em;
   }
@@ -193,7 +193,7 @@ h1 {
   background-color: #f72110;
 }
 
- img#nav-logo {
+img#nav-logo {
   width: 130px;
 }
 
@@ -263,12 +263,11 @@ footer a:hover {
   justify-content: space-evenly;
 }
 
- .desktop-navbar-first button,
- .right-nav button {
-   color: red;
-   background-color: white;
- }
-
+.desktop-navbar-first button,
+.right-nav button {
+  color: red;
+  background-color: white;
+}
 
 .desktop-navbar-last a:hover {
   color: black;
