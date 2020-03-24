@@ -51,6 +51,20 @@
   div.mag-main a {
     font-size: 20px;
   }
+
+  div.more-stories a {
+    font-size: 15px;
+  }
+
+  img.story-img {
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+
+  div.more-stories {
+    line-height: 3em;
+    font-size: 7px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -62,8 +76,36 @@
     padding: 15px;
   }
 
+  div.footer-items a,
+  span.footer-span {
+    border-right: none !important;
+  }
+
+  div.footer-content {
+    display: flex;
+    flex-direction: column !important;
+  }
+
+  div.footer-icons {
+    margin-left:5px !important;
+    margin-top:5px !important;
+  }
+
+  div.footer-logo,
+  div.footer-logo span {
+    display: block !important;
+  }
+
+  nav.first-nav i{
+    font-size: 13px;
+  }
+
   div.us-aside1 {
     margin-top: 20px;
+  }
+
+  div.culture-travel img {
+    width: 100%;
   }
 
   .subscribe-aside h4 {
@@ -76,6 +118,20 @@
     margin-top: 50px;
     font-size: 13px;
     margin-bottom: 20px;
+  }
+
+  div.more-stories a {
+    font-size: 15px;
+  }
+
+  img.story-img {
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+
+  div.more-stories {
+    line-height: 2.5em;
+    font-size: 7px;
   }
 
   div.subscribe-short {
@@ -105,6 +161,11 @@
     line-height: 1em;
   }
 
+  img#newsletter-img {
+    width: 100%;
+    height: 200px;
+  }
+
   .footer-content {
     display: flex;
     flex-direction: column;
@@ -132,8 +193,8 @@ h1 {
   background-color: #f72110;
 }
 
-img#nav-logo {
-  width: 150px;
+ img#nav-logo {
+  width: 130px;
 }
 
 footer a,
@@ -202,7 +263,8 @@ footer a:hover {
   justify-content: space-evenly;
 }
 
- .desktop-navbar-first button {
+ .desktop-navbar-first button,
+ .right-nav button {
    color: red;
    background-color: white;
  }
