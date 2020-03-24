@@ -15,7 +15,7 @@ This project is built using bootstrap. The aim of the project is to master the b
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/imahnama/Newsweek/600b750abfff9b9cef49b720281adfa2522dfd39/index.html)
+[Live Demo Link](https://rawcdn.githack.com/imahnama/Newsweek/6475a7a833ef35003c7db55af8794742d3d0d66d/index.html)
 
 ## Getting Started
 
